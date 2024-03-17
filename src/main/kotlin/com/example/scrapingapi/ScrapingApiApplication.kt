@@ -1,11 +1,11 @@
-package com.example.googletrendsscraper
+package com.example.scrapingapi
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class GoogleTrendsScraperApplication
+class ScrapingApiApplication
 
 fun main(args: Array<String>) {
-	runApplication<GoogleTrendsScraperApplication>(*args)
+	runApplication<ScrapingApiApplication>(*args)
 }
