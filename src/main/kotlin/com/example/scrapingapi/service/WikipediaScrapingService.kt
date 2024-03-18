@@ -41,8 +41,8 @@ class WikipediaScrapingService {
             // Retira a linha de cabeçalho da tabela
             val portRows = portRowsRaw.drop(1)
 
-            portRows.map { portRow ->
-                val portRowValues = portRow.td { findAll { this } }
+            for (row in portRows) {
+                val portRowValues = row.td { findAll { this } }
 
                 val number = portRowValues[0].text.formatPort()
                 val description = portRowValues[1].text
