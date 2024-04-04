@@ -1,7 +1,7 @@
 package com.example.scrapingapi.service
 
 import com.example.scrapingapi.model.Port
-import com.example.scrapingapi.model.PortsScrapingResult
+import com.example.scrapingapi.model.result.PortsScrapingResult
 import com.example.scrapingapi.util.formatPort
 import it.skrape.core.htmlDocument
 import it.skrape.fetcher.HttpFetcher
